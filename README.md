@@ -1,6 +1,22 @@
 # Shubham Tekne — Portfolio
 
-Production-grade portfolio website built with React + Vite + Tailwind CSS.
+Personal portfolio website built with React + Vite + Tailwind CSS.
+
+## About This Project
+
+This portfolio was built using **vibe coding** — I used AI assistance to generate a lot of the code,
+and I'm learning the underlying concepts (React, Tailwind CSS, Framer Motion) as I go, rather than
+having hand-written every line myself.
+
+This is a **frontend-only project** — there is no real backend or database connected anywhere.
+
+The site includes an **Admin section** (Login, Dashboard) which is a **UI/frontend demo only** —
+it is not connected to any real authentication service or database, and doesn't persist real data.
+It exists so I could practice building admin-style interfaces (protected routes, context-based auth
+state, dashboard layouts).
+
+I'm an MCA student focused primarily on **Java + Spring Boot backend development**, but I'm genuinely
+interested in becoming a full-stack developer — this project is part of that learning path.
 
 ## Tech Stack
 
@@ -70,7 +86,6 @@ All reusable UI components live in `src/components/ui/`:
 - **Tailwind integration** — dark mode via `class` strategy
 - **Animation library** — centralized `src/lib/animations.js`
 - **Reusable hooks** — `useScrollPosition`, `useMediaQuery`
-- **CI/CD ready** — `.env.example`, deployment-agnostic static build
 - **Responsive** — mobile, tablet, desktop, ultra-wide
 - **Reduced motion** — respects `prefers-reduced-motion`
 - **Loading skeletons** — skeleton components for async content
@@ -85,6 +100,7 @@ All reusable UI components live in `src/components/ui/`:
 - [ ] Blog section with categories/tags/search
 - [ ] Analytics integration (GA4 / Umami)
 - [ ] Project filtering & pagination
+- [ ] Real backend + database (currently frontend-only)
 
 ## Getting Started
 
@@ -166,4 +182,7 @@ Build results (with code splitting):
 
 ## License
 
-MIT
+© 2026 Shubham Tekne. All rights reserved.
+
+This code is publicly visible for portfolio and review purposes only. It is **not licensed for reuse,
+copying, modification, or redistribution** without explicit permission from the author.
