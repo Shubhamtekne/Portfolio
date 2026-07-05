@@ -10,7 +10,7 @@ import { DASHBOARD_STORAGE_KEY, LEGACY_DASHBOARD_STORAGE_KEY } from '../config/a
 export const profile = {
   // ─── Personal ───────────────────────────────────────────
   name: 'Shubham Arun Tekne',
-  firstName: 'शुभम',
+  firstName: 'शुभम टेकणे',
   tagline: 'Java backend developer building systems that actually run in production.',
   role: 'Java Backend Developer',
   email: 'shubhamtekne.dev@gmail.com',
