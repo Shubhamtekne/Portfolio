@@ -30,7 +30,7 @@ export const profile = {
   seo: {
     title: 'Shubham Tekne — Java Backend Developer',
     description:
-      'Java backend developer and MCA student at GECA. Building REST APIs and Spring Boot systems for campus placements at TCS, Cybage, Bitwise, and Kanerika.',
+      'Java backend developer and MCA student at GECA. Building REST APIs and Spring Boot applications.',
     keywords: [
       'Shubham Tekne',
       'Java developer',
@@ -42,7 +42,7 @@ export const profile = {
       'campus placement',
     ],
     ogImage: '/og-image.png',
-    siteUrl: 'https://shubhamtekne.dev',
+    siteUrl: 'https://tekneshubham.vercel.app',
     twitterHandle: null,
   },
 
@@ -59,7 +59,7 @@ export const profile = {
   about: {
     headline: 'I build backends, not slides.',
     paragraphs: [
-      "I'm a first-year MCA student at Government Engineering College Aurangabad — one of Maharashtra's top government engineering colleges. My focus is backend development: writing the server logic, designing the database schema, and getting the API to actually respond correctly.",
+      "I'm a second-year MCA student at Government Engineering College Aurangabad — one of Maharashtra's top government engineering colleges. My focus is backend development: writing the server logic, designing the database schema, and getting the API to actually respond correctly.",
       'My foundation is Core Java — not just the syntax, but the object model, collections, and exception handling that make real applications work. I use Spring Boot to build RESTful services and MySQL for data storage and query design. I practice DSA on LeetCode regularly because writing working code under constraints matters.',
       
     ],
@@ -73,54 +73,23 @@ export const profile = {
   },
 
   // ─── Projects ───────────────────────────────────────────
-  projects: [
-    {
-      id: 'payroll-system',
-      title: 'Staff Payroll & Bill Management System',
-      role: 'Backend Lead',
-      collab: true,
-      description:
-        'A full-stack system to automate payroll calculation, payslip generation, and bill tracking — replacing manual spreadsheets with a structured database and a REST API layer.',
-      problem:
-        'College staff manually calculate salaries, deductions, and generate payslips each month — an error-prone process with no audit trail. This system centralizes payroll data and produces accurate payslips in seconds.',
-      contribution:
-        'I designed and built the entire backend: Spring Boot REST API with endpoints for employee CRUD, payroll computation logic (gross pay, deductions, net pay), and MySQL schema covering employees, departments, salary components, and bill records. My collaborator handled the MERN frontend that consumes these APIs.',
-      stack: ['Java', 'Spring Boot', 'MySQL', 'REST API', 'MERN (collab)', 'Git'],
-      githubUrl: null,
-      liveUrl: null,
-      featured: true,
-      year: 2026,
-    },
-    {
-      id: 'project-2',
-      title: 'Placeholder Project',
-      role: 'Solo Developer',
-      collab: false,
-      description: 'More projects in progress — check GitHub for latest activity.',
-      problem: null,
-      contribution: null,
-      stack: ['Java', 'Spring Boot'],
-      githubUrl: null,
-      liveUrl: null,
-      featured: false,
-      year: 2026,
-    },
-    {
-      id: 'project-3',
-      title: 'Placeholder Project',
-      role: 'Solo Developer',
-      collab: false,
-      description: 'More projects in progress — check GitHub for latest activity.',
-      problem: null,
-      contribution: null,
-      stack: ['Java', 'Spring Boot'],
-      githubUrl: null,
-      liveUrl: null,
-      featured: false,
-      year: 2026,
-    },
-  ],
-
+projects: [
+  {
+    id: 'coming-soon',
+    title: 'Projects Coming Soon',
+    role: 'Currently Building',
+    collab: false,
+    description:
+      'I am currently building production-ready Java backend and full-stack projects. This section will be updated with detailed case studies, source code, and live demos as they are completed.',
+    problem: null,
+    contribution: null,
+    stack: ['Java', 'Spring Boot', 'React', 'MySQL'],
+    githubUrl: null,
+    liveUrl: null,
+    featured: true,
+    year: 2026,
+  },
+],
   // ─── Skills ─────────────────────────────────────────────
   skills: {
     groups: [

@@ -88,15 +88,15 @@ export default function About() {
               </div>
             </motion.div>
           </motion.div>
-          <motion.div
+          {/* <motion.div
             variants={shouldReduce ? {} : fadeUp}
-            initial="hidden"
+            initial="hidde"
             whileInView="visible"
             viewport={{ once: true, margin: '-80px' }}
             className="col-span-full"
           >
             <SVGMaskEffectDemo />
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
