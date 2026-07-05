@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# Portfolio
+Portfolio site (vibe coded) — React, Tailwind, Framer Motion. Includes a demo-only admin panel UI; no real backend/DB yet.
+>>>>>>> 62d80b37e8469d259414ca2e5f35866183ea2528
 # Shubham Tekne — Portfolio
 
 Personal portfolio website built with React + Vite + Tailwind CSS.
