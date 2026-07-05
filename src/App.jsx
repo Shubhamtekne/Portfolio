@@ -13,6 +13,7 @@ import { useAuth } from './context/AuthContext'
 import { useDashboard } from './context/DashboardContext'
 import { ADMIN_DASHBOARD_ROUTE, ADMIN_LOGIN_ROUTE } from './config/authConfig'
 import Cursor from './components/animations/Cursor'
+import { Analytics } from "@vercel/analytics/next"
 
 const AdminLogin = lazy(() => import('./pages/admin/Login'))
 const AdminDashboard = lazy(() => import('./pages/admin/Dashboard'))
@@ -42,6 +43,8 @@ export default function App() {
     </>
   )
 }
+
+
 
 function AdminAuthRoute() {
   const { authenticated, checking } = useAuth()
