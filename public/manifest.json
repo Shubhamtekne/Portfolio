@@ -1,0 +1,19 @@
+{
+  "name": "Shubham Tekne — Java Backend Developer",
+  "short_name": "Shubham.dev",
+  "description": "Java backend developer and MCA student at GECA. Building REST APIs and Spring Boot systems.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "technology", "development"],
+  "lang": "en"
+}

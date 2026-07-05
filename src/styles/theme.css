@@ -1,0 +1,119 @@
+/**
+ * Light theme overrides.
+ * Applied when [data-theme="light"] is on <html>.
+ */
+[data-theme='light'] {
+  --bg: #F5F5F0;
+  --surface: #FFFFFF;
+  --border: #E0E0D8;
+  --border-subtle: #EAEAE2;
+  --text: #1A1A18;
+  --muted: #6B6B68;
+  --accent: #0EA5E9;
+  --accent-dim: #0284C7;
+  --accent-glow: rgba(14, 165, 233, 0.1);
+  --accent-gradient: rgba(14, 165, 233, 0.08);
+}
+
+[data-theme='light'] body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+[data-theme='light'] .bg-bg {
+  background-color: var(--bg);
+}
+
+[data-theme='light'] .bg-surface {
+  background-color: var(--surface);
+}
+
+[data-theme='light'] .text-text {
+  color: var(--text);
+}
+
+[data-theme='light'] .text-muted {
+  color: var(--muted);
+}
+
+[data-theme='light'] .text-accent {
+  color: var(--accent);
+}
+
+[data-theme='light'] .border-border {
+  border-color: var(--border);
+}
+
+[data-theme='light'] .bg-accent {
+  background-color: var(--accent);
+  color: white;
+}
+
+[data-theme='light'] .bg-accent\/10 {
+  background-color: var(--accent-glow);
+}
+
+[data-theme='light'] .accent-glow {
+  box-shadow: 0 0 24px rgba(14, 165, 233, 0.15);
+}
+
+/* Selection */
+[data-theme='light'] ::selection {
+  background: rgba(14, 165, 233, 0.25);
+  color: #1A1A18;
+}
+
+/* Scrollbar */
+[data-theme='light'] ::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+[data-theme='light'] ::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+
+[data-theme='light'] ::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Glass effects - adjust for light mode */
+[data-theme='light'] .backdrop-blur-xl,
+[data-theme='light'] .backdrop-blur-2xl {
+  backdrop-filter: blur(20px);
+}
+
+[data-theme='light'] .border-white\/25,
+[data-theme='light'] .border-white\/30 {
+  border-color: var(--border);
+}
+
+[data-theme='light'] .bg-white\/10 {
+  background-color: var(--surface);
+}
+
+/* Focus visible */
+[data-theme='light'] :focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+/* Social icons and links */
+[data-theme='light'] .group:hover .text-accent {
+  color: var(--accent);
+}
+
+/* Smooth transition for theme changes */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html * {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html * {
+    transition: none !important;
+  }
+}
